@@ -1,0 +1,74 @@
+
+/* .a1 h1{
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-weight: lighter;
+}
+.p1{
+font-family: sans-serif;
+}
+.a1{
+    display: inline-flex;
+    margin: 25px;
+}
+.b1{
+    margin-top: 10px;
+    border-radius: 20px;
+}
+.imj{
+    border-radius: 20px;
+    margin-top: 3ch;
+} */
+/* ../Styles/hero.css */
+
+/* Apply a reset to remove default margin and padding */
+.a1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    background-color: #f0f0f0;
+  }
+  
+  .sec1 {
+    flex: 1;
+    padding: 0 20px;
+  }
+  
+  .sec2 {
+    flex: 1;
+    padding: 0 20px;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+  }
+  
+  .p1 {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+  }
+  
+  .b1 {
+    background-color: #ffc107;
+    margin-top: 10px;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .b1:hover {
+    background-color: #e0a800;
+  }
+  
+  .imj {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    display: block;
+    border-radius: 5px;
+  }
+  

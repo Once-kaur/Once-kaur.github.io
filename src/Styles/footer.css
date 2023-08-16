@@ -1,0 +1,64 @@
+/* .f1{
+    display: inline-flex;
+}
+.f1 section{
+    margin: 20px;
+} */
+/* ../Styles/footer.css */
+
+/* Reset some default styling */
+footer {
+    margin-top: 20px;
+    background-color: #333;
+    color: white;
+    padding: 40px 0;
+  }
+  
+  .f1 {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  section {
+    flex: 1;
+    padding: 0 20px;
+    margin-bottom: 20px;
+  }
+  
+  h3 {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+  }
+  
+  nav ul, ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  nav ul li, ul li {
+    margin-bottom: 10px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .f1 {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    section {
+      text-align: center;
+    }
+  }
+  
