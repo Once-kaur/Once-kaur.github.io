@@ -1,0 +1,41 @@
+/* Booking.css */
+.booking-container {
+    max-width: 400px;
+    margin: 0 auto;
+    margin-top: 10%;
+    margin-bottom: 15%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+  }
+  
+  .booking-container form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .booking-container label {
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .booking-container input,
+  .booking-container select {
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  .booking-container input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .booking-container input[type="submit"]:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  

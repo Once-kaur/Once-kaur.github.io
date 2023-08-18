@@ -1,5 +1,10 @@
 import Header from "./Header";
 import "../Styles/hero.css"
+import Foot from "../components/Footer"
+import "../Styles/highlight.css"
+import bruschetta from "../assets/bruschetta.jpg"
+import salad from "../assets/salad.jpg"
+import dessert from "../assets/dessert.jpg"
 function Hero()
 {
     return (

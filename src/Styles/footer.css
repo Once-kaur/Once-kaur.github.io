@@ -12,6 +12,7 @@ footer {
     background-color: #333;
     color: white;
     padding: 40px 0;
+    
   }
   
   .f1 {
@@ -19,7 +20,10 @@ footer {
     justify-content: space-around;
     flex-wrap: wrap;
   }
-  
+  .ig2{
+    width: 20%;
+    height: auto;
+  }
   section {
     flex: 1;
     padding: 0 20px;

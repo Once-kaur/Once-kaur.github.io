@@ -1,26 +1,23 @@
 import "../Styles/footer.css"
+import logo2 from "../assets/logo2.png"
 import {BrowserRouter, Link} from "react-router-dom";
 function Foot(){
     return (
         <footer>
             <div className="f1">
-            {/* <section>
-                <img />
-            </section> */}
+            <section>
+                <img  className="ig2"src={logo2} />
+            </section>
             <section>
                 <h3>DOORMAT NAVIGATION</h3>
-                <BrowserRouter>
                 <nav>
                     <ul>
-                <li><Link to='/'>HOME</Link></li>
-                <li><Link to='/about'>ABOUT</Link></li>
-                <li><Link to='/menu'>MENU</Link></li>
-                <li>RESERVATIONS</li>
-                <li>ORDER ONLINE</li>
-                <li>LOGIN</li>
+                <Link to="/">HOME</Link><br/>
+                <Link to="/about">ABOUT</Link><br/>
+                <Link to="/reservation">RESERVATIONS</Link><br/>
+                <Link to="/login">LOGIN</Link><br/>
                     </ul>
                 </nav>
-                </BrowserRouter>
             </section>
             <section>
                 <h3>CONTACT</h3>
